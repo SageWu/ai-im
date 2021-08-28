@@ -1,0 +1,20 @@
+.container {
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 80%;
+  text-align: center;
+
+  &.alignLeft {
+    align-self: flex-start;
+  }
+  &.alignRight {
+    align-self: flex-end;
+  }
+  p {
+    font-size: 16px;
+  }
+  img {
+    border-radius: 20px;
+    max-width: 100%;
+  }
+}

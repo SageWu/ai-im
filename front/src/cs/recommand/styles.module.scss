@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  align-self: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  background-color: rgb(80, 80, 236);
+  text-align: center;
+
+  .closeBtn {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+}

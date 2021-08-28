@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.7.2",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "find-free-ports": "^3.0.0",
+    "js-jieba": "^1.0.4",
+    "socket.io": "^4.1.3"
+  }
+}
